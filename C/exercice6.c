@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void changerVal(int* x, int* y) {
-    int* temp;
+    int temp;
 
     /* printf("x=%p\t&x=%p\t*x=%d\n",x,&x,*x);
     printf("y=%p\t&y=%p\t*y=%d\n",y,&y,*y); */
