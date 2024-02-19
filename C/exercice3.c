@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
         p = argv[1];    // Pointeur sur le premier caractère de argv[1]
         taille = strlen(argv[1]);
         moitie = taille / 2;
-        mot1 = (char *)malloc(moitie += moitie % 2);
+        mot1 = (char *)malloc(moitie + moitie % 2);
         mot2 = (char *)malloc(moitie);
         pm1 = mot1; // Garder un pointeur au début du mot
         pm2 = mot2; // Garder un pointeur au début du mot
@@ -31,6 +31,6 @@ int main(int argc, char *argv[]) {
             p++;
         }
     }
-    printf("mot 1:%s\n mot 2:%s\n",pm1,pm2);
+    printf("mot 1: %s\nmot 2: %s\n",pm1,pm2);
 
 }
