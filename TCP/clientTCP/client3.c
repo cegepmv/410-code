@@ -6,8 +6,8 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-#define PORT 9090
-#define DEST_IP "127.0.0.1"
+#define PORT 9091
+#define DEST_IP "192.168.50.190"
 #define ANSWER_LEN 4                
 
 int main() {
